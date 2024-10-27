@@ -1,0 +1,57 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --navyblue-color:#09476C;
+    --lightblue-color:#D9EFE2;
+    --lightblue-color1:#00ff6e;
+    --red-color:#FF2001;
+    --gray-color:#e1e2dc;
+    --text-color: #333;
+    --text-yewllo:#E8F14A;
+    --xanhfooter: #115376;
+    --gray-dam:#969593;
+    --gray:#E4E9ED;
+    --blue-color:#027DCA;
+    
+}
+
+*{
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+    transition: opacity 0.5s ease;
+}
+html{
+    /* font-size: 100%;16px */
+    /* 1rem=16px */
+    font-size: 62.5%;
+    line-height: 2rem; /*1.6rem = 16px */
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 1500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Thanh cuộn */
+::-webkit-scrollbar {
+    width: 10px; /* Độ rộng của thanh cuộn */
+}
+
+/* Thanh cuộn đang được kéo */
+::-webkit-scrollbar-thumb {
+    background-color:var(--navyblue-color); /* Màu của thanh cuộn khi được kéo */
+   
+}
+  
+/* Phần nền của thanh cuộn */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Màu của phần nền thanh cuộn */
+}
+
+

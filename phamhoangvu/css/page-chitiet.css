@@ -1,0 +1,484 @@
+.main-nenlon{
+    background-color: var(--lightblue-color);
+    height: 1910px;
+    
+}
+
+.main-link-chitiet{
+    padding: 10px 10px 10px 20px;
+
+}
+
+.main-link-chitiet a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--navyblue-color);
+    font-weight: 600;
+    
+}
+.main-nennho1-noidung{
+    display: grid;
+    grid-template-columns: 10% 30% 60%;
+    gap: 10px;
+    height: 470px;
+}
+
+
+.main-nennho1{
+    background-color: var(--white-color);
+    height: 650px;
+    width: 1420px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.main-nennho2{
+    display: grid;
+    grid-template-columns: 72% 30%;
+    margin: 20px auto;
+    padding-left: 40px;
+
+}
+.nen2-1{
+    background-color: var(--white-color);
+    height: 900px;
+    width: 1030px; 
+    border-radius: 20px;
+}
+.nen2-2{
+    background-color: var(--white-color);
+    height: 900px;
+    width: 360px; 
+    border-radius: 20px;
+}
+.main-nennho3{
+    background-color: var(--white-color);
+    height: 250px;
+    width: 1420px;
+    margin: 0 auto;
+    border-radius: 20px;
+    align-items: center;
+}
+.main-noidung-cot2{
+    width: 400px;
+}
+.gallery-container1{
+    padding: 40px 0 0 20px;
+}
+.gallery-container2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0 0;
+}
+.thumbnail {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+  }
+  .thumbnail:hover {
+    transform: scale(1.1);
+  }
+  .full-image {
+   
+    width: 280px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  .full-image.show {
+    display: block;
+  }
+
+.noidung_sach{
+    padding-top: 40px;
+    list-style: none;
+}
+
+.tieude-noidung{
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: var(--navyblue-color);
+
+}
+
+.noidung-1{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.ND1{
+    padding-left:  36px;
+}
+.noidung-3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-left: 10px;
+    align-items: end;
+}
+.noidung-2{
+    color: var(--blue-color);
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding-left: 10px;
+    border: none;
+    background-color: white;
+}
+.noidung-2 a{
+    text-decoration: none;
+}
+.li-ul{
+    padding: 10px 0;
+}
+
+.tien-1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: var(--navyblue-color);
+}
+
+.tien-2{
+    text-decoration: line-through;
+    font-weight: 400;
+    padding: 0 15px;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+.gg-10{
+    background-color: var(--red-color);
+    padding: 5px;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    border-radius: 10px;
+}
+
+.soluong{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+/* nút số lượng */
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--navyblue-color);
+    border-radius: 2px;
+  }
+
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .decrement,
+  .increment{
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    
+  }
+
+  .decrement:hover,
+  .increment:hover{
+    background-color: var(--navyblue-color);
+    color: var(--white-color);
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    font-size: 1.6rem;
+    text-align: center;
+    border: none;
+    padding: 5px;
+  }
+  /* Hide the default number input spinner */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+/* hàng thêm vào giõ hàng và mua ngay */
+
+.hanggiohangmuangay{
+    display: flex;
+    padding: 60px 120px;
+    
+}
+
+.themgiohang{
+    font-size: 2.1rem;
+    font-weight: bold;
+    padding: 9px 10px;
+    background-color: var(--navyblue-color);
+    border-radius: 10px;
+    align-items: center;
+    color: var(--white-color);
+    margin: 0;
+    margin-right: 20px;
+    border: none;
+}
+.themgiohang:hover{
+    
+    background-color: var(--red-color);
+    
+}
+
+.muangay{
+    font-size: 2.1rem;
+    font-weight: bold;
+    background-color: var(--navyblue-color);
+    padding: 9px 40px;
+    margin: 0;
+    align-items: center;
+    border-radius: 10px;
+    color: var(--white-color);
+    border: none;
+}
+.muangay:hover{
+    background-color: var(--red-color);
+}
+.nennho2-tieude{
+    padding: 20px 0 0 20px ;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--navyblue-color);
+}
+.nennho2-bang{
+    padding: 10px 0 0 20px;
+}
+
+.txt-nen2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.txt2-nen2{
+    text-align: right;
+    font-size: 1.6rem;
+    color:var(--navyblue-color);
+    font-weight: bold;
+}
+td{
+    width: 220px;
+    padding: 5px;
+}
+
+.txt-noidungsach{
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--navyblue-color);
+}
+.txt-noidungsach1{
+    padding: 0 10px 0 10px; 
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--navyblue-color);
+}
+
+.noidung-sach{
+    padding: 5px 20px 0 20px;
+    font-size: 1.6rem;
+    text-align: justify;
+}
+.noidung-sach3{
+    padding: 5px 20px 0 0px;
+    font-size: 1.8rem;
+    margin: 0;
+}
+.noidung-sach3 a{
+    color: var(--navyblue-color);
+    font-weight: bold
+}
+.main-nennho3{
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    gap: 20px;
+}
+.danhgia-cot1{
+    padding: 0 20px 0 20px;
+}
+.danhgia-cot2{
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    
+}
+/* đánh giá 1 */
+.phantram{
+    font-size: 5rem;
+    padding-left:90px ;
+    font-weight: bold;
+}
+.danhgia{
+    color: var(--navyblue-color);
+    font-size: 1.2rem;
+    padding-left:80px ;
+    font-weight: bold;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+  }
+  .rating input {
+    display: none;
+  }
+  .rating label {
+    display: inline-block;
+    padding: 5px;
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  .rating input:checked ~ label {
+    color: #f90;
+  }
+  /* đánh giá 2  */
+.dong1{
+    display: flex;
+    align-items: center;
+}
+.thanhmau0{
+    background-color: var(--navyblue-color);
+    width: 100px;
+    height: 10px;
+    border-radius:  10px 0 0 10px;
+    
+}
+.thanhmau1{
+    background-color: var(--gray-color);
+    width: 50px;
+    height: 10px;
+    align-items: center;
+    border-radius:  0 10px 10px 0;
+}
+.thanhmau2{
+    background-color: var(--navyblue-color);
+    width: 50px;
+    height: 10px;
+    border-radius:  10px 0 0 10px;
+    
+}
+.thanhmau3{
+    background-color: var(--gray-color);
+    width: 100px;
+    height: 10px;
+    align-items: center;
+    border-radius:   0 10px 10px 0 ;
+}
+.thanhmau4{
+    background-color: var(--navyblue-color);
+    width: 20px;
+    height: 10px;
+    border-radius:  10px 0 0 10px;
+    
+}
+.thanhmau5{
+    background-color: var(--gray-color);
+    width: 130px;
+    height: 10px;
+    align-items: center;
+    border-radius:  0 10px 10px 0;
+}
+.thanhmau6{
+    background-color: var(--navyblue-color);
+    width: 60px;
+    height: 10px;
+    border-radius:  10px 0 0 10px;
+    
+    
+}
+.thanhmau7{
+    background-color: var(--gray-color);
+    width: 90px;
+    height: 10px;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+}
+.thanhmau8{
+    background-color: var(--navyblue-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 10px 0 0 10px;
+    
+}
+.thanhmau9{
+    background-color: var(--gray-color);
+    width: 145px;
+    height: 10px;
+    align-items: center;
+    border-radius:  0 10px 10px 0;
+}
+
+.sao{
+    color: var(--navyblue-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0 5px 0 5px;
+}
+
+
+
+.nen2-2-txt{
+    font-size: 2rem;
+    padding: 20px;
+    font-weight: bold;
+    color: var(--navyblue-color);
+    text-align: center;
+}
+
+.sachhang1{
+    padding: 0 20px 25px 20px;
+    display: flex;
+    align-items: center;
+}
+.img-kichcosach{
+    width: 60px;
+    transition: transform 0.3s ease;
+}
+.img-kichcosach:hover {
+    transform: scale(1.1);
+  }
+.sachhang1-txt{
+    align-items: center;
+}
+.ten-sach-sachhang1{
+    font-size: 1.6rem;
+    padding-left: 15px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.ten-sach-sachhang1:hover{
+    color: var(--navyblue-color);
+    font-weight: bold;
+}
+.tien-sachhang1{
+    font-size: 1.8rem;
+    color: var(--navyblue-color);
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.tien-sachhang1-2{
+    font-size: 1.6rem;
+    padding-left: 15px;
+    text-decoration: line-through;
+}
